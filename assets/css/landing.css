@@ -6,16 +6,22 @@ body{font-size:14px}
   h2{font-size:1.2em!important}
   h4{font-size:1.1em!important}
 }
+@media all and (max-width: 768px) {
+  .carousel-control-next{position:inherit;margin:10px auto}
+}
 .carousel.carousel-fade .carousel-item {
     display: block;
     opacity: 0;
     transition: opacity ease-out .7s;
 }
+.carousel-inner .carousel-control-next{opacity:1}
+  .carousel-inner .carousel-control-next .material-icons{font-size:36px;height:36px;position:inherit}
+  .carousel-inner .carousel-control-next .btn{padding:12px 24px 12px 30px}
 
 .carousel.carousel-fade .carousel-item.active{opacity:1!important;z-index:1}
 .carousel, .carousel-inner, .carousel-item{height:100%}
 .navbar .container.col-md-12{padding:0 10%}
-#carouselExampleIndicators a{z-index:99}
+#carouselExampleIndicators a{font-size:1em;z-index:99}
 
 .card-title, .footer-big h4, .footer-big h5, .footer-brand, .info-title, .media .media-heading, .title{font-family:Roboto,Helvetica,Arial,sans-serif}
 
