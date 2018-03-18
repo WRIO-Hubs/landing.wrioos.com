@@ -1,3 +1,24 @@
+body{font-size:14px}
+  h1{font-size:2.5em}
+  h2{font-size:1.5em;text-transform:uppercase}
 @media all and (max-width: 1024px) {
-  h1.title{font-size:2rem!important}
+  h1{font-size:2em!important}
+  h2{font-size:1.2em!important}
+  h4{font-size:1.1em!important}
+}
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out .7s;
+}
+
+.carousel.carousel-fade .carousel-item.active{opacity:1!important;z-index:1}
+.carousel, .carousel-inner, .carousel-item{height:100%}
+.navbar .container.col-md-12{padding:0 10%}
+#carouselExampleIndicators a{z-index:99}
+
+.card-title, .footer-big h4, .footer-big h5, .footer-brand, .info-title, .media .media-heading, .title{font-family:Roboto,Helvetica,Arial,sans-serif}
+
+@media (min-width:280px){
+.page-header .container{padding:0 15%;max-width:100%}
 }
