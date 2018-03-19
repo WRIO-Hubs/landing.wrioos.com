@@ -5,6 +5,7 @@ body{font-size:14px}
   h1{font-size:2em!important}
   h2{font-size:1.2em!important}
   h4{font-size:1.1em!important}
+  .carousel-inner ul{font-size:1.1em!important}
 }
 @media all and (max-width: 768px) {
   .carousel-control-next{position:inherit;margin:10px auto}
@@ -19,7 +20,7 @@ body{font-size:14px}
   .carousel-inner .carousel-control-next .btn{padding:12px 24px 12px 30px}
   .carousel-inner ul{font-size:1.125rem;line-height:1.5em;list-style-type:none;padding:0}
   .carousel-inner ul .material-icons{font-size:1rem;font-weight:bold;position:relative;top:2px}
-  #carouselExampleIndicators a{font-size:1em;z-index:99}
+  #carousel_ids a{font-size:1em;z-index:99}
 
 .carousel.carousel-fade .carousel-item.active{opacity:1!important;z-index:1}
 .carousel, .carousel-inner, .carousel-item{height:100%}
@@ -34,4 +35,103 @@ body{font-size:14px}
 
 @media (min-width:280px){
 .page-header .container{padding:0 15%;max-width:100%}
+}
+
+
+
+/* Bootstrap css */
+.invisible {
+  visibility: hidden !important;
+}
+
+.hidden-xs-up {
+  display: none !important;
+}
+
+@media (max-width: 575px) {
+  .hidden-xs-down {
+    display: none !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .hidden-sm-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hidden-sm-down {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .hidden-md-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .hidden-md-down {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .hidden-lg-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .hidden-lg-down {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hidden-xl-up {
+    display: none !important;
+  }
+}
+
+.hidden-xl-down {
+  display: none !important;
+}
+
+.visible-print-block {
+  display: none !important;
+}
+
+@media print {
+  .visible-print-block {
+    display: block !important;
+  }
+}
+
+.visible-print-inline {
+  display: none !important;
+}
+
+@media print {
+  .visible-print-inline {
+    display: inline !important;
+  }
+}
+
+.visible-print-inline-block {
+  display: none !important;
+}
+
+@media print {
+  .visible-print-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media print {
+  .hidden-print {
+    display: none !important;
+  }
 }
