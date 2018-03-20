@@ -1,15 +1,9 @@
 body{font-size:14px}
   h1{font-size:2.5em}
   h2{font-size:1.5em;text-transform:uppercase}
-@media all and (max-width: 1024px) {
-  h1{font-size:2em!important}
-  h2{font-size:1.2em!important}
-  h4{font-size:1.1em!important}
-  .carousel-inner ul{font-size:1.1em!important}
-}
-@media all and (max-width: 768px) {
-  .carousel-control-next{position:inherit;margin:10px auto}
-}
+  .navbar .navbar-nav .nav-item .nav-link{color:#999;font-size:1em;font-weight:bold}
+    .navbar .navbar-nav .nav-item .nav-link:hover{color:#fff}
+.carousel-control-next{position:inherit;margin:10px auto}
 .carousel.carousel-fade .carousel-item {
     display: block;
     opacity: 0;
@@ -17,10 +11,37 @@ body{font-size:14px}
 }
 .carousel-inner .carousel-control-next{opacity:1}
   .carousel-inner .carousel-control-next .material-icons{font-size:36px;height:36px;position:inherit}
-  .carousel-inner .carousel-control-next .btn{padding:12px 24px 12px 30px}
   .carousel-inner ul{font-size:1.125rem;line-height:1.5em;list-style-type:none;padding:0}
+  .carousel-inner ul.grey{color:#eee}
+  .carousel-inner ul a{color:#e89b35;font-size:1.2rem!important}
+    .carousel-inner ul a:hover{text-decoration:underline}
   .carousel-inner ul .material-icons{font-size:1rem;font-weight:bold;position:relative;top:2px}
-  #carousel_ids a{font-size:1em;z-index:99}
+  .carousel-inner .carousel-control-next .btn{margin-top:36px;padding:24px 36px}
+  #carousel_ids a{font-size:1.5em;z-index:99}
+  #accordion .card-header{background:none;border:none;margin:8px 0;padding:8px}
+    #accordion .card-header h6{margin:0;padding:5px 10px}
+    #accordion .card-collapse .card-header a{color:#fff;text-transform:capitalize}
+    #accordion .card-collapse .card-header a.collapsed{color:#999}
+    #accordion .card-collapse .card-header a i{top:-4px}
+  .bottom{position:fixed;bottom:20px;left:50%;right:50%}
+  .card-collapse .card-body{padding:0 50px 0 25px}
+  .carousel .card .card-body{max-width:none;min-height:auto}
+.btn.btn-danger{background-color:rgb(221, 0, 0)}
+
+@media all and (max-width: 1024px) {
+  h1{font-size:2em!important}
+  h2{font-size:1.2em!important}
+  h4{font-size:1.1em!important}
+  .carousel-inner ul{font-size:1.1em!important}
+  .carousel-inner ul a{font-size:.9rem!important}
+  #carousel_ids a{font-size:1em}
+  .carousel-inner .carousel-control-next .btn{margin-top:18px;padding:12px 24px}
+  .navbar .navbar-nav .nav-item .nav-link{font-size:.9em}
+  .navbar .navbar-nav .nav-item .nav-link:hover{color:#000}
+}
+h4 a{font-size:1.2rem!important;color:#e89b35}
+h4 a:hover{color:#e89b35;text-decoration:underline}
+h5{color:#ccc}
 
 .carousel.carousel-fade .carousel-item.active{opacity:1!important;z-index:1}
 .carousel, .carousel-inner, .carousel-item{height:100%}
