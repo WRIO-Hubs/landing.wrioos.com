@@ -27,6 +27,10 @@ body{font-size:14px}
   .card-collapse .card-body{padding:0 50px 0 25px}
   .carousel .card .card-body{max-width:none;min-height:auto}
 .btn.btn-danger{background-color:rgb(221, 0, 0)}
+h4 a,h4 a:visited{font-size:1.2rem!important;color:#ffab00}
+h4 a:hover{color:#ffab00;text-decoration:underline}
+h5{color:#ccc}
+.page-header .title{font-weight:normal}
 
 @media all and (max-width: 1024px) {
   h1{font-size:2em!important}
@@ -38,10 +42,11 @@ body{font-size:14px}
   .carousel-inner .carousel-control-next .btn{margin-top:18px;padding:12px 24px}
   .navbar .navbar-nav .nav-item .nav-link{font-size:.9em}
   .navbar .navbar-nav .nav-item .nav-link:hover{color:#000}
+  h4 a{font-size:1em!important}
+  h5{font-size:1em!important}
 }
-h4 a{font-size:1.2rem!important;color:#e89b35}
-h4 a:hover{color:#e89b35;text-decoration:underline}
-h5{color:#ccc}
+
+.height_fix{height: calc(100% - 200px);overflow-y:auto}
 
 .carousel.carousel-fade .carousel-item.active{opacity:1!important;z-index:1}
 .carousel, .carousel-inner, .carousel-item{height:100%}
