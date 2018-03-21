@@ -16,8 +16,8 @@ body{font-size:14px}
   .carousel-inner ul a{color:#e89b35;font-size:1.125rem!important}
     .carousel-inner ul a:hover{text-decoration:underline}
   .carousel-inner .material-icons{font-size:1.125rem;font-weight:bold;position:relative;top:2px}
-  .carousel-inner .carousel-control-next .btn{margin-top:36px;padding:24px 36px}
-  #carousel_ids a{font-size:1.5em;z-index:99}
+  #carousel_ids a{z-index:99}
+  .bottom a.btn-lg{font-size:1.5em}
   #accordion .card-header{background:none;border:none;margin:8px 0;padding:8px}
     #accordion .card-header h6{margin:0;padding:5px 10px}
     #accordion .card-collapse .card-header a{color:#fff;text-transform:capitalize}
@@ -31,6 +31,8 @@ h4 a,h4 a:visited{font-size:1.2rem!important;color:#ffab00}
 h4 a:hover{color:#ffab00;text-decoration:underline}
 h5{color:#ccc}
 .page-header .title{font-weight:normal}
+.bottom a .material-icons{position:relative!important;top:-1px!important}
+.footer{padding:4px 0}
 
 @media all and (max-width: 992px) {
   h1{font-size:2em!important}
@@ -38,8 +40,8 @@ h5{color:#ccc}
   h4{font-size:1.1em!important}
   .carousel-inner ul{font-size:1.1em!important}
   .carousel-inner ul a{font-size:1em!important}
-  #carousel_ids a{font-size:1em}
-  .carousel-inner .carousel-control-next .btn{margin-top:18px;padding:12px 24px}
+  .bottom a.btn-lg{font-size:1.2em;line-height:2.4}
+  .carousel-inner .carousel-control-next .btn{padding:12px 24px}
   .navbar .navbar-nav .nav-item .nav-link{font-size:.9em}
   .navbar .navbar-nav .nav-item .nav-link:hover{color:#000}
   h4 a{font-size:1em!important}
@@ -48,6 +50,7 @@ h5{color:#ccc}
 }
 @media all and (max-width: 576px) {
     .bottom{left:45%;right:55%}
+    .header-filter:after{background:rgba(0,0,0,.5);background:linear-gradient(45deg,rgba(0,0,0,.5),rgba(0,0,0,.5));background:-webkit-linear-gradient(135deg,rgba(0,0,0,.5),rgba(0,0,0,.5))}
 }
 
 .height_fix{height:calc(100% - 200px);overflow-y:auto}
@@ -66,6 +69,31 @@ h5{color:#ccc}
 
 @media (min-width:280px){
 .page-header .container{padding:0 15%;max-width:100%}
+}
+
+
+/* scrollbar for mobile */
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff;
 }
 
 /* Bootstrap css */
