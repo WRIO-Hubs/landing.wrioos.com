@@ -1,4 +1,4 @@
-body{background: url('../img/bg.jpg') center center;background-attachment:fixed;font-size:14px}
+body{background: url('../img/bg.jpg') center center;background-attachment:fixed;font-size:14px;overflow-x:hidden}
   h1{font-size:2.5em}
   h2{font-size:1.5em;text-transform:uppercase}
   .navbar .navbar-nav .nav-item .nav-link{color:#999;font-size:1em;font-weight:bold}
@@ -10,7 +10,7 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
   .carousel-inner ul a{color:#e89b35;font-size:1.125rem!important}
     .carousel-inner ul a:hover{text-decoration:underline}
   .carousel-inner .material-icons{font-size:1.125rem;font-weight:bold;position:relative;top:3px}
-  a.carousel-control-prev{position:fixed;z-index:99}
+  a.carousel-control-prev,a.carousel-control-next{position:fixed;z-index:99}
   .bottom a.btn-lg{font-size:1.5em;margin:32px 0 0;padding:1.125rem 2.25rem 1rem!important}
   #accordion .card-header{background:none;border:none;margin:8px 0;padding:8px}
     #accordion .card-header h6{margin:0;padding:5px 10px}
@@ -37,7 +37,6 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
   #accordion .card-header a:hover{color:#fff!important;text-decoration:none}
 .carousel, .carousel-inner, .carousel-item{position:inherit}
 .carousel-item{perspective:none}
-.carousel-inner{overflow:auto}
 .page-header{display:block;height:auto}
 .navbar.navbar-absolute{position:fixed}
 
