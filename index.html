@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/material-kit.min.css">
     <link rel="stylesheet" href="assets/css/landing.css">
-<body class="sections-page section-white">
+<body>
 
-    <div class="main">
+    <div class="">
 
         <div class="cd-section" id="headers">
             <div class="header-3">
-                <nav class="navbar navbar-transparent navbar-absolute navbar-expand-lg">
+                <nav class="navbar navbar-transparent navbar-expand-lg">
                     <div class="container col-sm-11">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-translate">
@@ -60,320 +60,569 @@
                         <li data-target="#carousel_ids" data-slide-to="4" class=""></li>
                         <li data-target="#carousel_ids" data-slide-to="5" class=""></li>
                     </ol> -->
-                    <div class="carousel-inner embed-responsive embed-responsive-16by9">
-                        <div class="carousel-item embed-responsive-item active">
-                            <div class="page-header header-filter" style="background: url('assets/img/1.jpg') center center;background-size:cover;">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="page-header">
                                 <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
                                             <h1 class="title">WRIO Internet OS</h1>
                                             <h2 class="title">All you need is a browser</h2>
-                                            <h4>An easy-to-use, privacy respectful and browser-based open-source operating system with blockchain-powered cloud apps enabled in a click that use public decentralized storage of machine-readable Linked Data. This allows automatic data processing of all information uploaded into the web based on your interests.</h4>
+                                            <h4>An easy-to-use, privacy respectful and browser-based open-source operating system with blockchain-powered cloud apps enabled in a click that use public decentralized storage of machine-readable data. This allows automatic data processing of all information uploaded into the web based on your interests.</h4>
                                             <h4>Now, this is what WRIO Internet OS is ­— an upgrade to a user-centric Web 3.0 with a predictive services and search engines of new generation.</h4>
                                         </div>
                                         <div class="bottom">
-                                          <div class="col-md-12 ml-auto mr-auto">
-                                              <div class="buttons carousel-control-next">
-                                                  <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger btn-lg">
-                                                      Start the story <i class="material-icons">play_arrow</i>
-                                                  </a>
-                                              </div>
-                                          </div>
-                                      </div>
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Start the story <i class="material-icons">play_arrow</i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item embed-responsive-item">
-                            <div class="page-header header-filter" style="background: url('assets/img/2.jpg') center center;background-size:cover;">
+                        <div class="carousel-item">
+                            <div class="page-header">
                                 <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
                                             <h1 class="title">Why</h1>
                                             <h2 class="title">Web 2.0 browsing issues</h2>
                                             <h4>The current web 2.0 status quo is outdated and inefficient.</h4>
+                                            <br>
+                                            <div class="slide6_1">
+                                              <h6>Text</h6>
+                                              <p>List of issues</p>
+                                            </div>
                                         </div>
-                                        <div class="bottom">
-                                          <div class="col-md-12 ml-auto mr-auto">
-                                              <div class="buttons carousel-control-next">
-                                                  <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger btn-lg">
-                                                      How web 2.0 works&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">settings</i>
-                                                  </a>
-                                              </div>
-                                          </div>
+                                        <div class="bottom col-md-12">
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                How web 2.0 works <i class="material-icons">settings</i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item embed-responsive-item">
-                            <div class="page-header header-filter" style="background: url('assets/img/2_1.jpg') center center;background-size:cover;">
+                        <div class="carousel-item">
+                            <div class="page-header">
                                 <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
                                             <h1 class="title">How web 2.0 works</h1>
                                             <h2 class="title">Request to the website server</h2>
-                                            <h4><i class="material-icons">clear</i> Fishing alert<br />
-                                            <i class="material-icons">clear</i> Low trust online: scammers & spam
-                                            <br />
-                                            <i class="material-icons">clear</i> Censorship, easy to block</h4>
+                                            <h4>First step: description of browsing schema.</h4>
+                                            <div class="schema">
+                                              <table class="left">
+                                                <tr>
+                                                  <td>
+                                                    <h6>Website</h6>
+                                                    <img src="assets\img\icons\website.png" height="80" width="80">
+                                                  </td>
+                                                  <td class="space"></td>
+                                                  <td>
+                                                    <h6>Browser</h6>
+                                                    <img src="assets\img\icons\browser.png" height="80" width="80">
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </div>
+                                            <div class="arrow_down"></div>
+                                            <div class="slide1_1">
+                                                <h6>Fishing alert</h6>
+                                                <p>Description goes here</p>
+                                            </div>
+                                            <div class="slide1_2">
+                                                <h6>Low trust online</h6>
+                                                <p>Scammers & spam</p>
+                                            </div>
+                                            <div class="slide1_3">
+                                                <h6>Centralization</h6>
+                                                <p>Centralization means easy to block and censorship</p>
+                                            </div>
                                         </div>
-                                        <div class="bottom">
-                                          <div class="col-md-12 ml-auto mr-auto">
-                                              <div class="buttons carousel-control-next">
-                                                  <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger btn-lg">
-                                                      Loading&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">file_download</i>
-                                                  </a>
-                                              </div>
-                                          </div>
+                                        <div class="bottom col-md-12">
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Page Loading <i class="material-icons">file_download</i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item embed-responsive-item">
-                            <div class="page-header header-filter" style="background: url('assets/img/2_2.jpg') center center;background-size:cover;">
+                        <div class="carousel-item">
+                            <div class="page-header">
                                 <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
                                             <h1 class="title">How web 2.0 works</h1>
-                                            <h2 class="title">Loading HTML markup, styles and javascript</h2>
-                                            <h4><i class="material-icons">clear</i> Insecure: viruses & malware. 71% of websites contain some malicious code were in fact legitimate websites that had been compromised in some way
-                                            <br /><i class="material-icons">clear</i> Functionality limited by website owner</h4>
+                                            <h2 class="title">Websites are a mix of data, HTML markup, CSS and JavaScript</h2>
+                                            <h4>A major part of websites require JavaScript to be operational. It can contain malicious code and infect users’ computers through browsers. 71% of websites contain some malicious code were in fact legitimate websites that had been compromised in some way.</h4>
+                                            <div class="schema">
+                                              <table class="right">
+                                                <tr>
+                                                  <td>
+                                                    <h6>Website</h6>
+                                                    <img src="assets\img\icons\website.png" height="80" width="80">
+                                                  </td>
+                                                  <td class="space"></td>
+                                                  <td>
+                                                    <h6>Browser</h6>
+                                                    <img src="assets\img\icons\browser.png" height="80" width="80">
+                                                  </td>
+                                                  <td class="space"></td>
+                                                  <td>
+                                                    <h6>HDD</h6>
+                                                    <img src="assets\img\icons\hdd.png" height="80" width="80">
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </div>
+                                            <div class="arrow_down"></div>
+                                            <div class="slide2_1">
+                                                <h6>Insecure</h6>
+                                                <p>Viruses & malware</p>
+                                            </div>
+                                            <div class="slide2_2">
+                                                <h6>Limited functionality</h6>
+                                                <p>Functionality limited by website owner</p>
+                                            </div>
                                         </div>
-                                        <div class="bottom">
-                                          <div class="col-md-12 ml-auto mr-auto">
-                                              <div class="buttons carousel-control-next">
-                                                  <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger btn-lg">
-                                                      Authentication&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">fingerprint</i>
-                                                  </a>
-                                              </div>
-                                          </div>
+                                        <div class="bottom col-md-12">
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Authentication <i class="material-icons">fingerprint</i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item embed-responsive-item">
-                            <div class="page-header header-filter" style="background: url('assets/img/2_3.jpg') center center;background-size:cover;">
+                        <div class="carousel-item">
+                            <div class="page-header">
                                 <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
                                             <h1 class="title">How web 2.0 works</h1>
                                             <h2 class="title">Authentication</h2>
-                                            <h4>User data stored on the server
-                                              <br>
-                                              <i class="material-icons">clear</i> Hacking and leaking personal data risks
-                                              <br />
-                                              <i class="material-icons">clear</i> Surveillance, no privacy</h4>
+                                            <h4>User data stored on the server.</h4>
+                                            <div class="schema">
+                                              <table class="left">
+                                                <tr>
+                                                  <td>
+                                                    <h6>Database</h6>
+                                                    <img src="assets\img\icons\database.png" height="80" width="80">
+                                                  </td>
+                                                  <td class="space"></td>
+                                                  <td>
+                                                    <h6>Website UI</h6>
+                                                    <img src="assets\img\icons\website.png" height="80" width="80">
+                                                  </td>
+                                                  <td class="space"></td>
+                                                  <td>
+                                                      <h6>User</h6>
+                                                      <img src="assets\img\icons\user.png" height="80" width="80">
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </div>
+                                            <div class="arrow_down"></div>
+                                            <div class="slide3_1">
+                                                <h6>Hacking</h6>
+                                                <p>Hacking and leaking personal data risks</p>
+                                            </div>
+                                            <div class="slide3_2">
+                                                <h6>Surveillance</h6>
+                                                <p>No privacy</p>
+                                            </div>
                                         </div>
-                                        <div class="bottom">
-                                          <div class="col-md-12 ml-auto mr-auto">
-                                              <div class="buttons carousel-control-next">
-                                                  <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger btn-lg">
-                                                      Getting data&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">description</i>
-                                                  </a>
-                                              </div>
-                                          </div>
+                                        <div class="bottom col-md-12">
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Getting data <i class="material-icons">description</i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item embed-responsive-item">
-                            <div class="page-header header-filter" style="background: url('assets/img/2_4.jpg') center center;background-size:cover;">
+                        <div class="carousel-item">
+                            <div class="page-header">
                                 <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
                                             <h1 class="title">How web 2.0 works</h1>
                                             <h2 class="title">Getting data from database</h2>
-                                            <h4><i class="material-icons">clear</i> Website information isolation
-                                            <br />
-                                            <i class="material-icons icon-fix">clear</i> Unstructured data. Search engines have to <a href="https://en.wikipedia.org/wiki/Parsing" target="_blank">parse</a>
-                                            <br>
-                                            <i class="material-icons icon-fix">clear</i> Manual search and data processing</h4>
+                                            <h4>Text</h4>
+                                            <div class="schema">
+                                              <table class="right">
+                                                <tr>
+                                                  <td>
+                                                    <h6>Database</h6>
+                                                    <img src="assets\img\icons\database.png" height="80" width="80">
+                                                  </td>
+                                                  <td class="space"></td>
+                                                  <td>
+                                                    <h6>Website</h6>
+                                                    <img src="assets\img\icons\website.png" height="80" width="80">
+                                                  </td>
+                                                  <td class="space"></td>
+                                                  <td>
+                                                    <h6>Browser</h6>
+                                                    <img src="assets\img\icons\browser.png" height="80" width="80">
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </div>
+                                            <div class="arrow_down"></div>
+                                            <div class="slide4_1">
+                                                <h6>Data isolation</h6>
+                                                <p>Website information isolation</p>
+                                            </div>
+                                            <div class="slide4_2">
+                                                <h6>Unstructured data</h6>
+                                                <p>Search engine optimization is required</p>
+                                            </div>
+                                            <div class="slide4_3">
+                                                <h6>Data is human-readable only</h6>
+                                                <p>Manual search for and processing of information</p>
+                                            </div>
                                         </div>
-                                        <div class="bottom">
-                                          <div class="col-md-12 ml-auto mr-auto">
-                                              <div class="buttons carousel-control-next">
-                                                  <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger btn-lg">
-                                                      How to fix&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">build</i>
-                                                  </a>
-                                              </div>
-                                          </div>
+                                        <div class="bottom col-md-12">
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                How to fix <i class="material-icons">build</i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--<div class="carousel-item embed-responsive-item">
-                            <div class="page-header header-filter" style="background: url('assets/img/2.jpg') center center;background-size:cover;">
+                        <div class="carousel-item">
+                            <div class="page-header">
                                 <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
-                                            <h1 class="title">Why</h1>
-                                            <h2 class="title">Web 2.0 browsing issues</h2>
-                                            <h4>The current web 2.0 status quo is outdated and inefficient.</h4>
-                                            <h4>How web 2.0 works:</h4>
-                                            <ul>
-                                              <li>1. Request to the website server
-                                              <h5><i class="material-icons">clear</i> Fishing alert<br />
-                                              <i class="material-icons">clear</i> Low trust online: scammers & spam</h5></li>
-                                              <li>2. Loading HTML markup, styles and javascript
-                                                <h5><i class="material-icons">clear</i> Insecure: viruses & malware. 71% of websites contain some malicious code were in fact legitimate websites that had been compromised in some way
-                                                <br /><i class="material-icons">clear</i> Functionality limited by website owner</h5>
-                                              </li>
-                                              <li>3. Authentication. User data stored on the server
-                                                <h5><i class="material-icons">clear</i> Hacking and leaking personal data risks
-                                                <br />
-                                                <i class="material-icons">clear</i> Surveillance, no privacy
-                                                <br />
-                                                <i class="material-icons">clear</i> Censorship, easy to block</h5>
-                                              </li>
-                                              <li>4. Getting data from database
-                                                <h5><i class="material-icons">clear</i> Website information isolation
-                                                <br />
-                                                <i class="material-icons">clear</i> Unstructured data. Search engines have to <a href="https://en.wikipedia.org/wiki/Parsing" target="_blank">parse</a>
-                                                <br>
-                                                <i class="material-icons">clear</i> Manual search and data processing</h5></li>
-                                            </ul>
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
+                                            <h1 class="title">Linked Data</h1>
+                                            <h2 class="title">Semantics · Magic sauce</h2>
+                                            <h4>Information rules the world, in which data is its currency. World of Big Data doubles every 18 months and automated processing of data is a must, but less than 5% of pages are semantic.
+                                              <br>Structured data (Linked Data) is a standardized key:value format (JSON-LD) that classifying the page content; i.e., on a recipe page, what are the ingredients, the cooking time and temperature, the calories, and so on. It builds upon standard Web technologies such as HTTP, RDF and URIs, but rather than using them to serve web pages for human readers, it extends them to share information in a way that can be read automatically by computers. Based on schema.org, supported by all major search engines.</h4>
+                                            <h4>Structured data (Linked Data) is a standardized format (JSON-LD) that classifying the page content; i.e., on a recipe page, what are the ingredients, the cooking time and temperature, the calories, and so on. It builds upon standard Web technologies such as HTTP, RDF and URIs, but rather than using them to serve web pages for human readers, it extends them to share information in a way that can be read automatically by computers. Based on schema.org, supported by all major search engines without search engine optimization.</h4>
+                                            <br>
+                                            <div class="slide5_1">
+                                                <h6>Any static hosting</h6>
+                                                <p>Dark web support.</p>
+                                            </div>
+                                            <div class="slide5_2">
+                                                <h6>Structured data</h6>
+                                                <p>key:value text format. Secure read-only mode.</p>
+                                            </div>
+                                            <div class="slide5_3">
+                                                <h6>Machine-readable</h6>
+                                                <p>Automatic data processing.</p>
+                                            </div>
+                                            <div class="slide5_4">
+                                                <h6>Semantic Lego</h6>
+                                                <p>Coherence of data · no more copy/paste.</p>
+                                            </div>
+                                            <div class="slide5_5">
+                                                <h6>Free for everyone</h6>
+                                                <p>Open, shareable & reusable.</p>
+                                            </div>
                                         </div>
                                         <div class="bottom">
-                                          <div class="col-md-12 ml-auto mr-auto">
-                                              <div class="buttons carousel-control-next">
-                                                  <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger btn-lg">
-                                                      How to fix&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">build</i>
-                                                  </a>
-                                              </div>
-                                          </div>
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                MetaDataBase <i class="material-icons"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>-->
-                        <div class="carousel-item embed-responsive-item">
-                            <div class="page-header header-filter" style="background: url('assets/img/3.webp') center center;background-size:cover;">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="page-header">
                                 <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
-                                            <h1 class="title">How</h1>
-                                            <h2 class="title">User-centric browsing experience · Web 3.0</h2>
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
+                                            <h1 class="title">Blockchain</h1>
+                                            <h2 class="title">Global MetaDataBase</h2>
+                                            <h4>A blockchain is a continuously growing list of records, called blocks, which are linked and secured using cryptography. Blockchain was invented by Satoshi Nakamoto in 2008 for use in the cryptocurrency bitcoin, as its public transaction ledger.</h4>
+                                            <h4>Blockchain stores assets and metadata. Metadata is data [information] that provides information about other data.</h4>
+                                            <br>
+                                            <div class="slide5_1">
+                                                <h6>Features</h6>
+                                                <p>Description.</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Web 3.0 <i class="material-icons"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="page-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
+                                            <h1 class="title">What Web 3.0 is</h1>
+                                            <h2 class="title">Semantics + Blockchain = Web 3.0</h2>
+                                            <h4>Metadata of each page is recorded in the blockchain.</h4>
+                                            <br>
+                                            <div class="slide6_1">
+                                                <h6>Global Data Pool</h6>
+                                                <p>Cooperatively developed public disctributed "Wikipedia" of Linked Data.</p>
+                                            </div>
+                                            <div class="slide6_2">
+                                                <h6>Hubs</h6>
+                                                <p>Web 3.0 websites.</p>
+                                            </div>
+                                            <div class="slide6_3">
+                                                <h6>Powerful apps</h6>
+                                                <p>Blockchain-powered cloud & distributed apps.</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Semantic format <i class="material-icons">description</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="page-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
+                                            <h1 class="title">Cloud & distributed apps</h1>
+                                            <h2 class="title">User-centric & predictive systems</h2>
+                                            <h4>Rich functionality</h4>
+                                            <br>
+                                            <div class="slide6_1">
+                                                <h6>Automatic data processing</h6>
+                                                <p>Description.</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Text <i class="material-icons">description</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="page-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
+                                            <h1 class="title">What WRIO Internet OS is</h1>
+                                            <h2 class="title">User-centric browsing experience</h2>
+                                            <h4>The WRIO Internet OS platform greatly improves the browsing experience of the everyday Internet user. By utilizing blockchain data storage and it’s ability to analyze and output machine-readable data, the user experience is exponentially improved compared to the current norm.</h4>
+                                            <h4>Correlated to the user’s interests stored in the profile. If there is a match, the page is displayed in the user’s web dashboard, which is a key element of user-centric web.</h4>
+                                            <br>
+                                            <div class="slide6_1">
+                                                <h6>Single sign on</h6>
+                                                <p>Single sign on through the blockchain ledger makes it easier than ever for users to access all their data from one sign on point rather than multiple email, password logins.</p>
+                                            </div>
+                                            <div class="slide6_1">
+                                                <h6>Spam-proof</h6>
+                                                <p>Spam and irrelevant advertisements are virtually eliminated through the reputation system enabling a more user friendly browsing environment.</p>
+                                            </div>
+                                            <div class="slide6_1">
+                                                <h6>Security</h6>
+                                                <p>Security is unmatched through the use of blockchain and single sign on.</p>
+                                            </div>
+                                            <div class="slide6_1">
+                                                <h6>Predictive Themes</h6>
+                                                <p>Multiple page themes to choose from and automatic data processing makes every page on the new web individual to the user, again, promoting the new user centric browsing experience.</p>
+                                            </div>
+                                            <div class="slide6_1">
+                                                <h6>Platform</h6>
+                                                <p>Upgrade to web 3.0.</p>
+                                            </div>
+                                            <div class="slide6_1">
+                                                <h6>Platform</h6>
+                                                <p>Cloud & dApp platform.</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Text <i class="material-icons">description</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="page-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
+                                            <h1 class="title">How WRIO Internet OS works</h1>
+                                            <h2 class="title">Blockchain-based authentication</h2>
+                                            <h4>Blockchain address functions as ID. Access is granted through the use of a crypto-key stored on the user’s side. Global “social-media-like” login allowing for the protection of anonymity.</h4>
+                                            <br>
+                                            <div class="slide6_1">
+                                                <h6>Platform</h6>
+                                                <p>Secure one-click sign-on.</p>
+                                            </div>
+                                            <div class="slide6_1">
+                                                <h6>Privacy</h6>
+                                                <p>Description.</p>
+                                            </div>
+                                            <div class="slide6_1">
+                                                <h6>Anonymity</h6>
+                                                <p>Description.</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                UI and functionality <i class="material-icons">play_arrow</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="page-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
+                                            <h1 class="title">UI and functionality</h1>
+                                            <h2 class="title">Text</h2>
+                                            <h4>User interface is visualized through the Theme selected by the user, which most closely correspond to their needs and technical capacity of the device at the moment.</h4>
+                                            <br>
+                                            <div class="slide6_1">
+                                                <h6>Predictive</h6>
+                                                <p>Predictive UI corresponding to the tastes and physical abilities of the user.</p>
+                                            </div>
+                                            <div class="slide6_1">
+                                                <h6>Functions</h6>
+                                                <p>Functions and interactivity are provided through cloud and distributed apps</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Page Loading<i class="material-icons">file_download</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="page-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
+                                            <h1 class="title">Page loading</h1>
+                                            <h2 class="title">Semantic Lego</h2>
+                                            <h4>After authorization, the profile and other content are downloaded. Pages can be linked via http links to any other pages. In this example, the profile contains a link https://domain2.com/index.html which allows to find out which university Alice graduated from.</h4>
+                                            <br>
+                                            <div class="slide6_1">
+                                                <h6>Text</h6>
+                                                <p>Description.</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Next <i class="material-icons">play_arrow</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="page-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
+                                            <h1 class="title">What WRIO OS is</h1>
+                                            <h2 class="title">Features</h2>
                                             <h4>The WRIO Internet OS platform greatly improves the browsing experience of the everyday Internet user. By utilizing blockchain data storage and it’s ability to analyze and output machine-readable data, the user experience is exponentially improved compared to the current norm.</h4>
                                             <br>
-                                            <ul>
-                                              <li><i class="material-icons">grade</i> Single sign on through the blockchain ledger makes it easier than ever for users to access all their data from one sign on point rather than multiple email, password logins</li>
-                                              <li><i class="material-icons">grade</i> Spam and irrelevant advertisements are virtually eliminated through the reputation system enabling a more user friendly browsing environment</li>
-                                              <li><i class="material-icons">grade</i> Security is unmatched through the use of blockchain and single sign on</li>
-                                              <li><i class="material-icons">grade</i> Multiple page themes to choose from and automatic data processing makes every page on the new web individual to the user, again, promoting the new user centric browsing experience</li>
-                                            </ul>
-                                            <!--<div class="buttons">
-                                                <a href="#pablo" class="btn btn-white btn-link btn-lg">
-                                                    <i class="material-icons">share</i> Share Offer
-                                                </a>
-                                                <a href="#pablo" class="btn btn-danger btn-lg">
-                                                    <i class="material-icons">shopping_cart</i> Shop Now
-                                                </a>
-                                            </div>-->
+                                            <div class="slide6_1">
+                                                <h6>Text</h6>
+                                                <p>Description.</p>
+                                            </div>
                                         </div>
                                         <div class="bottom">
-                                          <div class="col-md-12 ml-auto mr-auto">
-                                              <div class="buttons carousel-control-next">
-                                                  <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger btn-lg">
-                                                      About&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">info</i>
-                                                  </a>
-                                              </div>
-                                          </div>
-                                      </div>
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                About <i class="material-icons">info</i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item embed-responsive-item">
-                            <div class="page-header header-filter" style="background: url('assets/img/4.webp') center center;background-size:cover;">
+                        <div class="carousel-item">
+                            <div class="page-header">
                                 <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
-                                            <h1 class="title">Features</h1>
-                                            <h2 class="title">Semantics · Magic sauce</h2>
-                                            <h4>WRIO Internet OS not only solves all these web 2.0 issues that plague the Internet as we know it today, but improves upon the idea of a semantic and user friendly browsing experience, raising the bar and setting a new standard for the web as we will come to know it.</h4>
-                                            <ul>
-                                              <li><i class="material-icons">done</i> Structured data</li>
-                                              <li><i class="material-icons">done</i> A blockchain-powered decentralized machine-readable data pool</li>
-                                              <li><i class="material-icons">done</i> Automatic data processing</li>
-                                            </ul>
-                                        </div>
-                                        <div class="bottom">
-                                          <div class="col-md-12 ml-auto mr-auto">
-                                              <div class="buttons carousel-control-next">
-                                                  <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger btn-lg">
-                                                      What will I get?&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">thumb_up</i>
-                                                  </a>
-                                              </div>
-                                          </div>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item embed-responsive-item">
-                            <div class="page-header header-filter" style="background: url('assets/img/6.jpg') center center;background-size:cover;">
-                                <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
                                             <h1 class="title">Facts</h1>
                                             <h4>Text</h4>
                                             <br>
-                                            <ul class="grey">
-                                              <li><i class="material-icons">grade</i> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfe5bYJYayC_ZwmWgHjea-gij5-2MohY5TaOwHT4QhVU_iVnQ/viewform">Whitelist</a> · Over 200 Pledged investors with a current valuation of $2.2 Million</li>
-                                              <li><i class="material-icons">grade</i> <a href="">Airdrop</a> · Join our already 3000+ Airdrop participants — help spread the word and be rewarded at crowdsale.</li>
-                                              <li><i class="material-icons">grade</i> <a href="">Telegram</a> · We love connecting directly to our community which is why our Telegram group is currently over 1,700 members strong</li>
-                                              <li><i class="material-icons">grade</i> <a href="">Slack</a> · Join our group on slack for daily project updates and a direct line of communication with the team. 900+ Members already</li>
-                                            </ul>
+                                            <div class="slide6_1">
+                                                <h6><a href="https://docs.google.com/forms/d/e/1FAIpQLSfe5bYJYayC_ZwmWgHjea-gij5-2MohY5TaOwHT4QhVU_iVnQ/viewform">Whitelist</a></h6>
+                                                <p>Over 200 Pledged investors with a current valuation of $2.2 Million.</p>
+                                            </div>
+                                            <div class="slide6_1">
+                                                <h6><a href="#">Airdrop</a></h6>
+                                                <p>Join our already 3000+ Airdrop participants — help spread the word and be rewarded at crowdsale.</p>
+                                            </div>
+                                            <div class="slide6_1">
+                                                <h6><a href="#">Telegram</a></h6>
+                                                <p>We love connecting directly to our community which is why our Telegram group is currently over 1,700 members strong.</p>
+                                            </div>
+                                            <div class="slide6_1">
+                                                <h6><a href="#">Slack</a></h6>
+                                                <p>Join our group on slack for daily project updates and a direct line of communication with the team. 1,000+ Members already.</p>
+                                            </div>
                                         </div>
                                         <div class="bottom">
-                                          <div class="col-md-12 ml-auto mr-auto">
-                                              <div class="buttons carousel-control-next">
-                                                  <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger btn-lg">
-                                                      What's coming&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">linear_scale</i>
-                                                  </a>
-                                              </div>
-                                          </div>
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                What's coming <i class="material-icons">linear_scale</i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item embed-responsive-item">
-                            <div class="page-header header-filter" style="background: url('assets/img/6.jpg') center center;background-size:cover;">
+                        <div class="carousel-item">
+                            <div class="page-header">
                                 <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
                                             <h1 class="title">Roadmap</h1>
                                             <h2 class="title">MVP ready</h2>
                                             <h4>Unlike most crowdfunded projects, WRIO Internet OS is already a MVP. By showing the webRunes team has a proof of concept already, there have been over 5000+ members across all channels, we can't wait for you to be the next member of our growing community. New ground is being built by the team every day and the project is exclusively capable of improvement as time goes on.</h4>
                                             <br>
-                                            <ul class="grey">
-                                              <li><i class="material-icons">grade</i>List</li>
-                                            </ul>
+                                            <div class="slide6_1">
+                                                <h6>Text</h6>
+                                                <p>Description.</p>
+                                            </div>
                                         </div>
                                         <div class="bottom">
-                                          <div class="col-md-12 ml-auto mr-auto">
-                                              <div class="buttons carousel-control-next">
-                                                  <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger btn-lg">
-                                                      Who we are&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">people</i>
-                                                  </a>
-                                              </div>
-                                          </div>
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Who we are <i class="material-icons">people</i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item embed-responsive-item">
-                            <div class="page-header header-filter" style="background: url('assets/img/team.jpg') center center;background-size:cover;">
+                        <div class="carousel-item">
+                            <div class="page-header">
                                 <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
                                             <h1 class="title">Team</h1>
                                             <h4>10 members and 30+ contributors. Advisers from multi-billion companies and developers who participated in projects for Nike, Adidas, Apple, Walmart and other well known brands. The project team, management, development departments will be located in USA and Czech Republic.
                                             <a href="https://webrunes.com" target="_blank">
@@ -401,83 +650,74 @@
                                               </div>
                                           </footer>
                                         </div>
-                                        <!--<div class="col-md-12 ml-auto mr-auto">
-                                          <a href="https://webrunes.com" target="_blank" class="btn btn-white btn-lg">
-                                              Learn more about webRunes
-                                          </a>
-                                        </div>-->
                                         <div class="bottom">
-                                          <div class="col-md-12 ml-auto mr-auto">
-                                              <div class="buttons carousel-control-next">
-                                                    <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger btn-lg">
-                                                        Our vision <i class="material-icons">update</i>
-                                                    </a>
-                                              </div>
-                                          </div>
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Our vision <i class="material-icons">update</i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item embed-responsive-item">
-                            <div class="page-header header-filter" style="background: url('assets/img/6.jpg') center center;background-size:cover;">
+                        <div class="carousel-item">
+                            <div class="page-header">
                                 <div class="container">
-                                    <div class="row height_fix">
-                                        <div class="col-sm-12 col-md-8 col-lg-6 mr-auto text-left">
+                                    <div class="row">
+                                        <div class="col-sm-12 ml-auto mr-auto text-left">
                                             <h1 class="title">Vision</h1>
                                             <h2 class="title">Text</h2>
-                                            <h4>Why to participate (vision) & how</h4>
-
+                                            <h4>Why to participate (vision) & how. <a href="https://webrunes.com" target="_blank">
+                                                Learn more</a></h4>
+                                                <br>
                                             <div class="row">
-                            <div id="accordion" role="tablist">
-                            <div class="card card-collapse">
-                                <div class="card-header" role="tab" id="headingTwo">
-                                    <h6 class="mb-0">
-                                        <a class="" data-toggle="collapse" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                            Question #1
-                                            <i class="material-icons">keyboard_arrow_down</i>
-                                        </a>
-                                    </h6>
-                                </div>
-                                <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion" style="">
-                                    <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                    </div>
-                                </div>
-                            </div>
-                                <div class="card card-collapse">
-                                    <div class="card-header" role="tab" id="headingOne">
-                                        <h6 class="mb-0">
-                                            <a data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
-                                                Question #2
-                                                <i class="material-icons">keyboard_arrow_down</i>
-                                            </a>
-                                        </h6>
-                                    </div>
-                                    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" style="">
-                                        <div class="card-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card card-collapse">
-                                    <div class="card-header" role="tab" id="headingThree">
-                                        <h6 class="mb-0">
-                                            <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                Question #3
-                                                <i class="material-icons">keyboard_arrow_down</i>
-                                            </a>
-                                        </h6>
-                                    </div>
-                                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-                                        <div class="card-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-
+                                              <div id="accordion" role="tablist">
+                                              <div class="card card-collapse">
+                                                  <div class="card-header" role="tab" id="headingTwo">
+                                                      <h6 class="mb-0">
+                                                          <a class="" data-toggle="collapse" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                              Question #1
+                                                              <i class="material-icons">keyboard_arrow_down</i>
+                                                          </a>
+                                                      </h6>
+                                                  </div>
+                                                  <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion" style="">
+                                                      <div class="card-body">
+                                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                                  <div class="card card-collapse">
+                                                      <div class="card-header" role="tab" id="headingOne">
+                                                          <h6 class="mb-0">
+                                                              <a data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+                                                                  Question #2
+                                                                  <i class="material-icons">keyboard_arrow_down</i>
+                                                              </a>
+                                                          </h6>
+                                                      </div>
+                                                      <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" style="">
+                                                          <div class="card-body">
+                                                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="card card-collapse">
+                                                      <div class="card-header" role="tab" id="headingThree">
+                                                          <h6 class="mb-0">
+                                                              <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                                  Question #3
+                                                                  <i class="material-icons">keyboard_arrow_down</i>
+                                                              </a>
+                                                          </h6>
+                                                      </div>
+                                                      <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                                          <div class="card-body">
+                                                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                            </div>
 
                                             <!--<br>
                                             <h6>Connect with us on:</h6>
@@ -497,35 +737,54 @@
                                             </div>-->
                                         </div>
                                         <div class="bottom">
-                                          <div class="col-md-6 ml-auto text-right">
-                                              <div class="buttons carousel-control-next">
-                                                  <a href="#carousel_ids" role="button" data-slide="next" class="btn btn-danger">
-                                                      Replay <i class="material-icons">replay</i>
-                                                  </a>
-                                              </div>
-                                          </div>
+                                            <a href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next" class="btn btn-danger btn-lg next">
+                                                Replay <i class="material-icons">replay</i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carousel_ids" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="prev">
                         <i class="material-icons">keyboard_arrow_left</i>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <!--<a class="carousel-control-next" href="#carousel_ids" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carousel_ids" onclick="scrollTopAnimated(0)" role="button" data-slide="next">
                         <i class="material-icons">keyboard_arrow_right</i>
                         <span class="sr-only">Next</span>
-                    </a>-->
+                    </a>
                 </div>
             </div>
         </div>
 
 
-
     </div>
     <!--   Core JS Files   -->
+<script>
+    var stepTime = 20;
+    var docBody = document.body;
+    var focElem = document.documentElement;
+
+    var scrollAnimationStep = function (initPos, stepAmount) {
+        var newPos = initPos - stepAmount > 0 ? initPos - stepAmount : 0;
+
+        docBody.scrollTop = focElem.scrollTop = newPos;
+
+        newPos && setTimeout(function () {
+            scrollAnimationStep(newPos, stepAmount);
+        }, stepTime);
+    }
+
+    var scrollTopAnimated = function (speed) {
+        var topOffset = docBody.scrollTop || focElem.scrollTop;
+        var stepAmount = topOffset;
+
+        speed && (stepAmount = (topOffset * stepTime)/speed);
+
+        scrollAnimationStep(topOffset, stepAmount);
+    };
+    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap-material-design.min.js"></script>
     <!-- Plugins for presentation and navigation  -->
