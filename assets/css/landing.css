@@ -41,6 +41,8 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
 .page-header{display:block;height:auto}
 .navbar.navbar-absolute{position:fixed}
 
+.rating{margin:20px 0 0;text-align:center}
+  .rating img{margin:12px;height:50px}
 .story{margin:32px 0 0}
   .story>div{min-height:48px;padding-left:64px}
   .story>div.dots_up{background:url("../img/icons/dots_up.png") 0 0 no-repeat;min-height:24px}
@@ -97,6 +99,7 @@ h4{margin-bottom:-12px}
   h6{font-size:0.8rem}
   .arrow_up h6, .arrow_down h6{font-size:0.7rem}
   .page-header .container{padding:0 20%!important}
+  .navbar .navbar-translate{position:fixed;right:20px;top:20px}
 }
 @media all and (max-width: 992px) {
     /*.header-filter:after{background:rgba(0,0,0,.66);background:linear-gradient(45deg,rgba(0,0,0,.66),rgba(0,0,0,.66));background:-webkit-linear-gradient(135deg,rgba(0,0,0,.66),rgba(0,0,0,.66))}*/
