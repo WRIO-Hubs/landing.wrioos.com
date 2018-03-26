@@ -18,7 +18,8 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
   .carousel-inner .material-icons{font-size:1.125rem;font-weight:bold;position:relative;top:3px}
   a.carousel-control-prev,a.carousel-control-next{position:fixed;z-index:99}
   .bottom a.btn-lg{font-size:1.5em;margin:32px 0 0;padding:1.125rem 2.25rem 1rem!important}
-  .bottom a.btn-link{font-weight:bold;margin:32px 0 0;padding:1.125rem 2.25rem 1rem!important}
+  .bottom a.btn-link{font-weight:bold;font-size:1em;margin:32px 0 0;padding:1.125rem 2.25rem 1rem!important}
+    .bottom a.btn-link:hover{color:#fff}
   #accordion .card-header{background:none;border:none;margin:8px 0;padding:8px}
     #accordion .card-header h6{margin:0;padding:5px 10px}
     #accordion .card-collapse .card-header a{color:#fff;text-transform:capitalize}
@@ -47,13 +48,21 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
 .page-header{display:block;height:auto}
 .navbar.navbar-absolute{position:fixed}
 
+/*
+.footer-big .gallery-feed a{width:20%;display:inline-block;margin-right:5%;margin-bottom:5%}
+.footer-big .gallery-feed h6{color:#000;background-color:#fff;font-size:.8em;padding:4px 8px;min-height:48px;text-align:center}
+.footer-big .gallery-feed img{width:100%}*/
+.footer-big .gallery-feed h6{display:none}
+
 .rating{margin:20px 0 0;text-align:center}
   .rating img{margin:12px;height:50px}
 .story{margin:48px 0 0}
+.story.margin>div{margin:16px 0 0}
+  .story.margin .arrow_down{margin:0 0 -4px}
 .story.half-margin{margin:24px 0 0}
   .story>div{min-height:48px;padding-left:64px}
-  .story>div.dots_up{background:url("../img/icons/dots_up.png") 0 0 no-repeat;min-height:24px}
-  .story>div.dots_down{background:url("../img/icons/dots_down.png") 0 0 no-repeat;min-height:24px}
+  .story>div.dots_up{background:url("../img/icons/dots_up.png") 0 0 no-repeat;min-height:16px}
+  .story>div.dots_down{background:url("../img/icons/dots_down.png") 0 0 no-repeat;min-height:16px}
   .story>div.arrow_up{background:url("../img/icons/arrow_up.png") 0 0 no-repeat;min-height:24px}
   .story>div.arrow_down{background:url("../img/icons/arrow_down.png") 0 0 no-repeat;min-height:24px}
     .arrow_up h6,.arrow_down h6{color:#000;background-color:#ccc;display:inline;font-size:1em;padding:4px 8px;line-height:24px}
@@ -89,6 +98,10 @@ p{color:#ccc}
 .website{background:url("../img/icons/website.png") 0 0 no-repeat}
 .database{background:url("../img/icons/database.png") 0 0 no-repeat}
 .device{background:url("../img/icons/device.png") 0 0 no-repeat}
+.hosting{background:url("../img/icons/hosting.png") 0 0 no-repeat}
+.structured_data{background:url("../img/icons/structured_data.png") 0 0 no-repeat}
+.lego{background:url("../img/icons/lego.png") 0 0 no-repeat}
+.reuse{background:url("../img/icons/reuse.png") 0 0 no-repeat}
 h4{margin-bottom:-12px}
 
 @media all and (max-width: 992px) {
