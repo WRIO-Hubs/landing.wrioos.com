@@ -60,9 +60,18 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
 .container p{font-size:1em!important}
 h6{font-size:1rem}
 p{color:#ccc}
+.preview a{display:block;margin:32px 0 0;text-align:center}
+  .preview a img{border-width:4px;border-color:#fff}
 
-.user{background:url("../img/icons/user.png") 0 0 no-repeat}
+.mvp{background:url("../img/icons/mvp.png") 0 0 no-repeat}
+.one-time{background:url("../img/icons/one-time.png") 0 0 no-repeat}
+.protection{background:url("../img/icons/protection.png") 0 0 no-repeat}
+.frontier{background:url("../img/icons/frontier.png") 0 0 no-repeat}
+.web3{background:url("../img/icons/web3.png") 0 0 no-repeat}
+.machine-readable{background:url("../img/icons/machine-readable.png") 0 0 no-repeat}
+.user-centric{background:url("../img/icons/user-centric.png") 0 0 no-repeat}
 .browser{background:url("../img/icons/browser.png") 0 0 no-repeat}
+.user{background:url("../img/icons/user.png") 0 0 no-repeat}
 .website{background:url("../img/icons/website.png") 0 0 no-repeat}
 .database{background:url("../img/icons/database.png") 0 0 no-repeat}
 .device{background:url("../img/icons/device.png") 0 0 no-repeat}
@@ -80,6 +89,8 @@ h4{margin-bottom:-12px}
   .navbar .navbar-nav .nav-item .nav-link:hover{color:#000}
   h4 a{font-size:1em!important}
   h5{font-size:1em!important}
+  h6{font-size:0.8rem}
+  .arrow_up h6, .arrow_down h6{font-size:0.7rem}
   .page-header .container{padding:0 20%!important}
 }
 @media all and (max-width: 992px) {
