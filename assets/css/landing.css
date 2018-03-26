@@ -1,6 +1,11 @@
 body{background: url('../img/bg.jpg') center center;background-attachment:fixed;font-size:14px;overflow-x:hidden}
   h1{font-size:2.5em}
   h2{font-size:1.5em;text-transform:uppercase}
+  h2.pull-right{color:#999!important;font-size:1.125em;font-weight:bold!important;margin:24px 0 0}
+    h2.pull-right a{color:#999}
+      h2.pull-right a:hover{color:#fff}
+      h2.pull-right a i{top:-3px!important}
+    h2.pull-right span{font-size:.75em;text-transform:lowercase}
   .navbar,.navbar-nav{z-index:100}
   .navbar .navbar-nav .nav-item .nav-link{color:#999;font-size:1em;font-weight:bold}
     .navbar .navbar-nav .nav-item .nav-link:hover{color:#fff}
