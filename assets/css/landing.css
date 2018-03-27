@@ -54,7 +54,7 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
 .footer-big .gallery-feed img{width:100%}*/
 .footer-big .gallery-feed h6{display:none}
 
-.rating{margin:20px 0 0;text-align:center}
+.rating{margin:20px 0 0;text-align:center;display:none}
   .rating img{margin:12px;height:50px}
 .story{margin:48px 0 0}
 .story.margin>div{margin:16px 0 0}
@@ -78,6 +78,7 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
   .human_readable{background:url("../img/icons/human_readable.png") 0 0 no-repeat}
 .container p{font-size:1em!important}
 h6{font-size:1rem}
+h6 span.date{color:#999}
 p{color:#ccc}
 .preview a{display:block;margin:32px 0 0;text-align:center}
   .preview a img{border-width:4px;border-color:#fff}
@@ -102,6 +103,14 @@ p{color:#ccc}
 .structured_data{background:url("../img/icons/structured_data.png") 0 0 no-repeat}
 .lego{background:url("../img/icons/lego.png") 0 0 no-repeat}
 .reuse{background:url("../img/icons/reuse.png") 0 0 no-repeat}
+.whitelist{background:url("../img/icons/whitelist.png") 0 0 no-repeat}
+.airdrop{background:url("../img/icons/airdrop.png") 0 0 no-repeat}
+.telegram{background:url("../img/icons/telegram.png") 0 0 no-repeat}
+.slack{background:url("../img/icons/slack.png") 0 0 no-repeat}
+.secure{background:url("../img/icons/secure.png") 0 0 no-repeat}
+.adp{background:url("../img/icons/adp.png") 0 0 no-repeat}
+.dashboard{background:url("../img/icons/dashboard.png") 0 0 no-repeat}
+.platform{background:url("../img/icons/platform.png") 0 0 no-repeat}
 h4{margin-bottom:-12px}
 
 @media all and (max-width: 992px) {
