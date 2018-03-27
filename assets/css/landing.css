@@ -111,7 +111,17 @@ p{color:#ccc}
 .adp{background:url("../img/icons/adp.png") 0 0 no-repeat}
 .dashboard{background:url("../img/icons/dashboard.png") 0 0 no-repeat}
 .platform{background:url("../img/icons/platform.png") 0 0 no-repeat}
+.rounds_presale{background:url("../img/icons/rounds_presale.png") 0 0 no-repeat}
+.rounds_special{background:url("../img/icons/rounds_special.png") 0 0 no-repeat}
+.rounds_1{background:url("../img/icons/rounds_1.png") 0 0 no-repeat}
+.rounds_2{background:url("../img/icons/rounds_2.png") 0 0 no-repeat}
+.rounds_3{background:url("../img/icons/rounds_3.png") 0 0 no-repeat}
+.profit{background:url("../img/icons/profit.png") 0 0 no-repeat}
+.special{background:url("../img/icons/special.png") 0 0 no-repeat}
+.ico{background:url("../img/icons/ico.png") 0 0 no-repeat}
 h4{margin-bottom:-12px}
+.progress{width:50%}
+sub{position:relative;top:0}
 
 @media all and (max-width: 992px) {
   h1{font-size:2em!important}
