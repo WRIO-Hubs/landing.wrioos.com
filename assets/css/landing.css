@@ -63,9 +63,9 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
   .story>div{min-height:48px;padding-left:64px}
   .story>div.dots_up{background:url("../img/icons/dots_up.png") 0 0 no-repeat;min-height:16px}
   .story>div.dots_down{background:url("../img/icons/dots_down.png") 0 0 no-repeat;min-height:16px}
-  .story>div.arrow_up{background:url("../img/icons/arrow_up.png") 0 0 no-repeat;min-height:24px}
-  .story>div.arrow_down{background:url("../img/icons/arrow_down.png") 0 0 no-repeat;min-height:24px}
-    .arrow_up h6,.arrow_down h6{color:#000;background-color:#ccc;display:inline;font-size:1em;padding:4px 8px;line-height:24px}
+  .story>div.arrow_up{background:url("../img/icons/arrow_up.png") 0 0 no-repeat;min-height:24px;display:inline}
+  .story>div.arrow_down{background:url("../img/icons/arrow_down.png") 0 0 no-repeat;min-height:24px;display:inline}
+    .arrow_up h6,.arrow_down h6{color:#000;background-color:#ccc;display:inline-block;font-size:1em;padding:4px 8px;line-height:24px}
   .fishing{background:url("../img/icons/fishing.png") 0 0 no-repeat}
   .low_trust{background:url("../img/icons/low_trust.png") 0 0 no-repeat}
   .centralization{background:url("../img/icons/centralization.png") 0 0 no-repeat}
